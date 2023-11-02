@@ -41,7 +41,6 @@ void printRus(wchar_t string[]) {
 
 // Циклы
 #define по_кругу for
-
 #define делать do
 #define покуда while
 
