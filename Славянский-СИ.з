@@ -1,1 +1,43 @@
 #pragma once
+#include"Source.h"
+#include<stdio.h>
+#include <windows.h>
+#include <locale.h>
+#include <wchar.h>
+
+void initConsole() {
+
+    setlocale(LC_ALL, "Russian");
+    SetConsoleOutputCP(1251);
+}
+void printRus(wchar_t string[]) {
+    wprintf(string);
+}
+
+#define использовать include
+#define число int
+#define число_с_точкой float
+#define по_кругу for
+#define изречь wprintf
+#define Л L
+#define выслушать scanf_s
+#define мать_функция main
+#define дать return
+#define число_бы_мне "%d"
+#define число_для_ответа L"%d"
+#define использовать_древнеславянский initConsole();
+
+#define делать do
+#define покуда while
+
+#define равняется =
+#define равняются =
+#define сложить +
+#define убрать -
+#define перемножить *
+#define делить /
+
+#define ежели if
+#define не_то else
+
+#define чело void
