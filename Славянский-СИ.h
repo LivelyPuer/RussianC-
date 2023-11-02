@@ -1,4 +1,4 @@
-#pragma once
+п»ї#pragma once
 
 
 #include<stdio.h>
@@ -15,47 +15,47 @@ void printRus(wchar_t string[]) {
     wprintf(string);
 }
 
-// типы данных
-#define число int
-#define число_с_точкой float
-#define двоичное bool
-#define всегда_больше_0 unsigned
+// С‚РёРїС‹ РґР°РЅРЅС‹С…
+#define С‡РёСЃР»Рѕ int
+#define С‡РёСЃР»Рѕ_СЃ_С‚РѕС‡РєРѕР№ float
+#define РґРІРѕРёС‡РЅРѕРµ bool
+#define РІСЃРµРіРґР°_Р±РѕР»СЊС€Рµ_0 unsigned
 
-// массивы
+// РјР°СЃСЃРёРІС‹
 
-// ввод и вывод
-#define изречь printf
-#define Л L
-#define выслушать scanf_s
+// РІРІРѕРґ Рё РІС‹РІРѕРґ
+#define РёР·СЂРµС‡СЊ printf
+#define Р› L
+#define РІС‹СЃР»СѓС€Р°С‚СЊ scanf_s
 
-#define мать_функция main
-#define дать return
+#define РјР°С‚СЊ_С„СѓРЅРєС†РёСЏ main
+#define РґР°С‚СЊ return
 
-#define число_бы_мне "%d"
-#define число_для_ответа "%d"
-#define использовать_древнеславянский_язык initConsole();
-#define захватить using
-#define крепость namespace
-#define обычную std;
+#define С‡РёСЃР»Рѕ_Р±С‹_РјРЅРµ "%d"
+#define С‡РёСЃР»Рѕ_РґР»СЏ_РѕС‚РІРµС‚Р° "%d"
+#define РёСЃРїРѕР»СЊР·РѕРІР°С‚СЊ_РґСЂРµРІРЅРµСЃР»Р°РІСЏРЅСЃРєРёР№_СЏР·С‹Рє initConsole();
+#define Р·Р°С…РІР°С‚РёС‚СЊ using
+#define РєСЂРµРїРѕСЃС‚СЊ namespace
+#define РѕР±С‹С‡РЅСѓСЋ std;
 
 
-// Циклы
-#define по_кругу for
-#define делать do
-#define покуда while
+// Р¦РёРєР»С‹
+#define РїРѕ_РєСЂСѓРіСѓ for
+#define РґРµР»Р°С‚СЊ do
+#define РїРѕРєСѓРґР° while
 
-// математические операции //
-#define равняется =
-#define равняются =
-#define сложить +
-#define убрать -
-#define перемножить *
-#define делить /
+// РјР°С‚РµРјР°С‚РёС‡РµСЃРєРёРµ РѕРїРµСЂР°С†РёРё //
+#define СЂР°РІРЅСЏРµС‚СЃСЏ =
+#define СЂР°РІРЅСЏСЋС‚СЃСЏ =
+#define СЃР»РѕР¶РёС‚СЊ +
+#define СѓР±СЂР°С‚СЊ -
+#define РїРµСЂРµРјРЅРѕР¶РёС‚СЊ *
+#define РґРµР»РёС‚СЊ /
 // math //
 
-#define корень() sqrt()
+#define РєРѕСЂРµРЅСЊ() sqrt()
 
-#define ежели if
-#define не_то else
+#define РµР¶РµР»Рё if
+#define РЅРµ_С‚Рѕ else
 
-#define чело void
+#define С‡РµР»Рѕ void
